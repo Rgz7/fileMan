@@ -16,4 +16,4 @@ for file in filename:
 		elif(str(filespl[-1]) == "gif"):
 			shutil.move("./{}".format(file),"./imgFile/{}".format(file))
 		elif(str(filespl[-1]) == "jpeg"):
-			shutil.move("./{}".format(file),"./imgFile/{}".format(file))
+			shutil.move("./{}".format(file),"./imgFile/{}".format(file)) 
